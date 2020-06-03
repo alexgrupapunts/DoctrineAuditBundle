@@ -51,7 +51,7 @@ final class SchemaHelper
                 ],
             ],
             'diffs' => [
-                'type' => DoctrineHelper::getDoctrineType('JSON'),
+                'type' => DoctrineHelper::getDoctrineType('TEXT'),
                 'options' => [
                     'default' => null,
                     'notnull' => false,
